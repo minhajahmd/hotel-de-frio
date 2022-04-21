@@ -1,0 +1,454 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #0F044C;
+}
+
+p {
+  color: #8f8f8f;
+  letter-spacing: 0.3px;
+}
+
+a {
+  text-decoration: none;
+  color: #0F044C;
+}
+
+.container-fluid {
+  padding: 7% 8% 8%;
+}
+
+.section-x {
+  background-color: white;
+  color: #0F044C;
+  padding-bottom: 14%;
+}
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0;
+}
+
+.navbar-brand {
+  color: #0F044C !important;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+  transition: transform .2s;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #0F044C !important;
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  background-color: #0F044C;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.nav-link:hover:after {
+  width: 100%;
+}
+
+.header-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: transparent;
+}
+
+.navbar-scroll {
+  opacity: 99%;
+  background-color: #F6F6F6;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  transition-duration: 0.6s;
+}
+
+/* Title */
+#title .container-fluid {
+  padding: 1% 8% 1%;
+  text-align: left;
+}
+
+.title-image {
+  width: 33%;
+  position: absolute;
+  right: 10%;
+}
+
+.button-1 {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.button-2 {
+  margin-right: 3%;
+}
+
+.btn-dark {
+  background-color: #0F044C;
+  border-color: #0F044C;
+}
+
+.section-y {
+  background-color: white;
+  color: #0F044C;
+  text-align: left;
+}
+
+.small-heading {
+  font-size: 2.3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.first-y {
+  padding-bottom: 13%;
+}
+
+.inner {
+  padding-top: 2%;
+}
+
+.cottage {
+  width: 30%;
+  float: left;
+  margin-right: 10%;
+}
+
+.cabin {
+  width: 30%;
+  float: right;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+.food {
+  width: 30%;
+  float: left;
+  margin-right: 10%;
+}
+
+.section-z {
+  background-color: white;
+  color: #0F044C;
+  text-align: center;
+  padding: 0 20% 0;
+}
+
+.section-1 {
+  background-color: white;
+  color: #0F044C;
+  text-align: center;
+}
+
+.rooms-heading {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.room-column {
+  text-align: left;
+  display: inline-block;
+}
+
+.room-image {
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.learn {
+  color: #495464;
+  width: 30%;
+  transition: transform .2s;
+}
+
+.learn:hover {
+  transform: scale(1.03);
+}
+
+.icon {
+  padding: 1px 0;
+  margin-left: 5%;
+}
+
+.section-2 {
+  color: #0F044C;
+  background-color: white;
+}
+
+.start {
+  color: #0F044C;
+  font-weight: bold;
+}
+
+.learn1 {
+  display: inline-block;
+  width: 200px;
+  margin-left: 20px;
+  color: #495464;
+  width: 27%;
+  transition: transform .2s;
+}
+
+.learn1:hover {
+  transform: scale(1.03);
+}
+
+.accordion {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-right: 0;
+  padding: 50px 0px 50px 50px;
+}
+
+.accordion-item {
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.accordion-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #19456B;
+}
+
+.accordion-title::after {
+  font: var(--fa-font-thin);
+  content: "\f13a";
+  font-family: "FontAwesome";
+  font-size: 35px;
+  margin-left: auto;
+  color: #0F044C;
+}
+
+.active-header::after {
+  content: "\f139";
+  font-family: "FontAwesome";
+  font-size: 35px;
+  color: #0F044C;
+}
+
+.accordion-answer {
+  margin-bottom: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: 400ms ease max-height;
+}
+
+.testimonial-heading {
+  text-align: center;
+  font-weight: bold;
+  color: #0F044C;
+}
+
+.testimonial-text {
+  padding: 3px 20%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  height: 20rem;
+  background-color: #fff;
+  padding: 2% 0;
+}
+
+.carousel-inner {
+  padding-bottom: 5%;
+}
+
+.container {
+  text-align: center;
+}
+
+.carousel-text {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #0F044C;
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  margin-bottom: 10px;
+  text-indent: -999px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 100%;
+}
+
+footer {
+  margin-top: 8%;
+  background-color: #0F044C;
+  color: #fff;
+}
+
+.footer-text {
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+}
+
+.tel {
+  color: #fff;
+}
+
+.linkmail {
+  color: #fff;
+}
+
+.contact-us {
+  line-height: 2rem;
+  text-align: right;
+}
+
+.footer-logo {
+  width: 30%;
+  margin-top: 10px;
+}
+
+.press-logo {
+  text-align: center;
+}
+
+.social-icon {
+  margin: 10px 10px 20px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.copyright {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+
+
+  #title {
+    text-align: center;
+  }
+
+
+  .title-image {
+    width: 75%;
+    padding-top: 5%;
+    position: static;
+    transform: rotate(0);
+  }
+
+  .small-heading {
+    padding-left: 0;
+    clear: both;
+  }
+
+  .section-z {
+    padding: 0;
+    text-align: left;
+  }
+
+  .cabin {
+    width: 70%;
+    float: none;
+    margin-left: 0;
+  }
+
+  .food {
+    width: 70%;
+  }
+
+  .cottage {
+    width: 70%;
+  }
+
+  .accordion {
+    padding: 0;
+  }
+
+  .room-column {
+    text-align: left;
+    padding: 15px 0 10px;
+  }
+
+  .room-image{
+    width: 70%;
+  }
+
+  .learn1 {
+    width: 50%;
+  }
+
+  .learn {
+    text-align: left;
+    width: 100%;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer-logo {
+    margin-top: 0px;
+  }
+}
